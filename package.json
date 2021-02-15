@@ -1,11 +1,16 @@
 {
-  "name": "y",
-  "version": "y",
-  "description": "y",
-  "main": "y",
-  "repository": "y",
-  "author": "y",
-  "license": "y",
+  "name": "express-ts-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index",
+    "webpack": "webpack --config webpack.config.ts"
+  },
+  "keywords": [],
+  "repository": "https://github.com/sealfury/express-ts-api",
+  "author": "",
+  "license": "ISC",
   "private": true,
   "dependencies": {
     "cors": "^2.8.5",
